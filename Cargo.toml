@@ -1,0 +1,51 @@
+[package]
+name = "rust_by_example"
+version = "0.1.0"
+authors = ["oussama"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+
+[[bin]]
+name = "literals"
+path = "src/literals/bin/main.rs"
+
+[[bin]]
+name = "formating"
+path = "src/formating/bin/main.rs"
+
+[[bin]]
+name = "tuples"
+path = "src/tuples/bin/main.rs"
+
+[[bin]]
+name = "arrays"
+path = "src/arrays/bin/main.rs"
+
+[[bin]]
+name = "struct"
+path = "src/struct/bin/main.rs"
+
+[[bin]]
+name = "enum"
+path = "src/enum/bin/main.rs"
+
+[[bin]]
+name = "linked_list"
+path = "src/linked_list/bin/main.rs"
+
+[[bin]]
+name = "const"
+path = "src/const/bin/main.rs"
+
+[[bin]]
+name = "binding"
+path = "src/binding/bin/main.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions/bin/main.rs"
